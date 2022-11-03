@@ -1,5 +1,6 @@
 $formalignment:center;
 $formwidth:50%;
+$leftpad:50px;
 
 form {
     text-align:$alignment;
@@ -10,4 +11,11 @@ input {
 }
 .img {
     float:$formalignment;
+}
+
+.appbar {
+    padding-left:$leftpad;
+}
+.main1 {
+    padding-left: $leftpad;
 }
