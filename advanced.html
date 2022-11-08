@@ -1,69 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google Advanced Search</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <body>
-            <nav class="nav">
-                <a href="index.html">Google Search</a>    
-            </nav>
-           <div>
-                <img class="advancedlogo" src="google logo.png" alt="Google search">
-            </div>
-            
+    <title> TA </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <body>
+        <div id="navbar">
+            <img src="google logo.png" alt="Google search" class="logo">
+            <a class="link" href="index.html">Google Search</a>
+        </div>
+
+
+
+        <div id="main">    
             <div class="appbar">
-                <label class="text"> Advanced Search </label>
+                <label class="advanced">Advanced Search</label> 
             </div>
-            <div class="main1">
-                <div class = 'qtext'>
-                    <span>Find pages with... </span>
+            <div class="border"></div>
+        </div>
+
+        <div id="form">
+            <form action="/search" method="GET" name="f">
+                <div class="box">
+                    <div>
+                        <span> Find Pages with... </span>    
+                    </div>      
                 </div>
-                <div class="qtables">
-                    <div class="inputstext"> all these words:
-                        <input class="input"> 
-                    </div> 
-                    <div class="inputstext"> all these words:
-                        <input> 
-                    </div> 
-                    <div class="inputstext"> all these words:
-                        <input> 
-                    </div> 
-                    <div class="inputstext"> all these words:
-                        <input> 
-                    </div> 
-                    <div class="bottomtext"> all these words:
-                        <input> to <input>
+                <div class="space">
+                </div>
+                <div class="tophalf">
+                <div class="questions"> 
+                    <div class="question1">
+                        <div class="question1a">
+                            <div class="questions1b">
+                              <label>all these words: </label>  
+                            </div>        
+                        </div>
+                        <div class="space">
+                            <div class="questions1c">
+                                <input class="input1" value autofocus="autofocus" type="text">
+                            </div>
+                        </div>
                     </div>
-                    
-     
                 </div>
-            </div>
-            <div class="main2">
-                <div class = 'qtext'>
-                    <span>Then narrow your results by... </span>
-                </div>
-                <div class="qtables">
-                    <div class="inputstext"> all these words:
-                        <input class="input"> 
-                    </div> 
-                    <div class="inputstext"> all these words:
-                        <input> 
-                    </div> 
-                    <div class="inputstext"> all these words:
-                        <input> 
-                    </div> 
-                    <div class="inputstext"> all these words:
-                        <input> 
-                    </div> 
-                    <div class="bottomtext"> all these words:
-                        <input> to <input>
+                <div class="questions"> 
+                    <div class="question1">
+                        <div class="question1a">
+                            <div class="questions1b">
+                              <label>this exact word or phrase: </label>  
+                            </div>        
+                        </div>
+                        <div class="space">
+                            <div class="questions1c">
+                                <input class="input1" value autofocus="autofocus" type="text">
+                            </div>
+                        </div>
                     </div>
-                    
-     
+                </div>
+                <div class="questions"> 
+                    <div class="question1">
+                        <div class="question1a">
+                            <div class="questions1b">
+                              <label>any of these words: </label> 
+                            </div>        
+                        </div>
+                        <div class="space">
+                            <div class="questions1c">
+                                <input class="input1" value autofocus="autofocus" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="questions"> 
+                    <div class="question1">
+                        <div class="question1a">
+                            <div class="questions1b">
+                              <label>none of these words: </label>  
+                            </div>        
+                        </div>
+                        <div class="space">
+                            <div class="questions1c">
+                                <input class="input1" value autofocus="autofocus" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <div class="questions"> 
+                    <div class="question1">
+                        <div class="question1a">
+                            <div class="questions1b">
+                              <label> numbers ranging form </label>  
+                            </div>        
+                        </div>
+                        <div class="space">
+                            <div class="questions1c">
+                                <input class="input1" value autofocus="autofocus" type="text">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </body>
-    </head>
+        </div>
+                <div class="border" style="margin:18px; padding: 15px;"> </div>
+            </form>
+        </div>
+    </body>
 </html>
