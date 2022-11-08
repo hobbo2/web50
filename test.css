@@ -1,0 +1,174 @@
+body {
+    min-height: 100%;
+    position: relative;
+    font-family: arial,sans-serif;
+}
+#navbar {
+    width: 100%;
+    height:auto;
+    display:flex;
+}
+.logo {
+    padding: 10px;
+    width: 80px;
+
+}
+
+.link {
+    text-align: center;
+    padding-top: 13px;
+    padding-left: 80%;
+    
+}
+
+#main {
+    width: 100%;
+    height: auto;
+}
+.appbar {
+    margin: 25px 35px;
+}
+.advanced {
+    font-size: 20px;
+    
+    color: #D93925;
+    margin-left: 10px;  
+}
+
+.border {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#form {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+form {
+    display: block;
+}
+
+
+
+
+.box {
+    width: 100%;
+    clear: both;
+}
+.box1 {
+    clear: both;
+}
+
+.box2 {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+
+.box3 {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.space {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+.sidebox {
+    float: left;
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.sidetext {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.sidebox1 {
+    float: left;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+.sidetext1 {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.BFlQMb {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+.questions {
+    width: 100%;
+    clear: both;
+}
+.question1 {
+    clear: both;
+}
+.question1a {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.question1b {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.question1c {
+    padding-right: 16px;
+}
+
+.input1 {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+.tophalf {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
