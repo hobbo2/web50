@@ -1,0 +1,104 @@
+form {
+  text-align: center;
+}
+
+body {
+  min-height: 100%;
+  font-family: arial,sans-serif;
+}
+.searchbar {
+  width: 50%;
+  height: 45px;
+  border-radius: 100px;
+  border-color: rgba(209, 207, 207, 0.847);
+  border-style:solid;
+  margin: 20px;
+}
+
+.submitbar {
+  border-radius: 10px;
+  height: 35px;
+  border-color: white;
+  background-color: rgb(245, 243, 243);
+  margin-right: 15px;
+  border-style: none;
+  font-size: 8;
+}
+
+.nav {
+  position: absolute;
+  padding: 15px;
+  margin-right: 15px;
+  right: 0;
+  top: 15px;
+}
+.logo {
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+}
+
+
+.index {
+  margin-right: 10px;
+}
+
+.advancedlogo {
+  width: 80px;
+  float: left;
+  height: 25px;
+  margin: 20px;
+
+}
+
+.appbar {
+  margin-top: auto;
+  color: rgb(243, 53, 53);
+  padding-left: 50px;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: rgb(222, 218, 218);
+}
+.text {
+  font-size: 21px;
+  font: weight 450px;;
+}
+
+
+  
+.qtext {
+  margin-bottom: 15px;
+}
+
+.inputstext {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.bottomtext {
+  font-size: 13px;
+  padding: 10px;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: rgb(173, 172, 172);
+}
+
+.main2 {
+  height: 100%;
+  padding-top: 20px;
+  width: 100%;
+  padding-left: 50px;
+  
+}
+.main1 {
+  height: 100%;
+  padding-top: 50px;
+  width: 100%;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
