@@ -36,7 +36,9 @@ body {
 }
 
 .border {
-    border-bottom: 1px solid #ebebeb;
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
 }
 
 #form {
@@ -94,10 +96,12 @@ form {
     font-weight: 700;
     color: #777;
     padding-left: 5px;
+    margin-left: 5px;
     vertical-align: middle;
 }
 .sidetext {
     height: 30px;
+    padding-left: 5px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -109,9 +113,10 @@ form {
     margin: 0 0 8px 1%;
     color: #555;
     font-size: 11px;
-    padding-left: 5px;
+    padding-left: 10px;
     vertical-align: middle;
     position: relative;
+    
 }
 .sidetext1 {
     height: 30px;
@@ -162,13 +167,35 @@ form {
     padding: 1px 8px;
     width: 100%;
 }
-.tophalf {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    text-decoration: none;
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
 }
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+.advsubmitbar {
+    border-radius: 5px;
+    height: 35px;
+    border-color: #4D90FE;
+    background-color: #4D90FE;
+    margin-right: 15px;
+    border-style: none;
+    font-size: 9;
+  }
